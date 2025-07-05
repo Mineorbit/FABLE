@@ -10,3 +10,6 @@
 [submodule "extern/libOTe"]
 	path = extern/libOTe
 	url = git@github.com:osu-crypto/libOTe.git
+[submodule "extern/fmt"]
+	path = extern/fmt
+	url = git@github.com:fmtlib/fmt.git
