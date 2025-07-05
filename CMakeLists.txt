@@ -75,7 +75,7 @@ if (NOT DEFINED LUT_MAX_LOG_SIZE)
 endif()
 
 find_package(FMT REQUIRED)
-find_package(libOTe REQUIRED)
+find_package(libOTe HINTS extern/libOTe)
 
 add_subdirectory(src)
 add_subdirectory(test)
